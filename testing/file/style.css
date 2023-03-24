@@ -19,7 +19,7 @@ opacity:0;
 
       .floatBottom {
       position:fixed;
-      padding-top:535px;
+      bottom: 0;
       }
 
       .headerimages {
@@ -41,10 +41,10 @@ opacity:0;
       }
 
 body{
-    min-height: 0vh;
+    min-height: 0;
     display: flex;
     flex-direction: column;
 }
 article {
-    margin: auto 0;
+    margin: 0;
 }

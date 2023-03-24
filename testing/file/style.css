@@ -1,0 +1,50 @@
+      .portrait:hover {
+opacity:0;
+      -webkit-filter:brightness(10) blur(5px);
+      filter:brightness(10) blur(5px);
+      -webkit-transition:opacity 2s ease,-webkit-filter 2s ease;
+      transition:opacity 2s ease,-webkit-filter 2s ease;
+      cursor:crosshair
+}
+
+      .floatRight {
+      float:right;
+      margin-right:40px
+      }
+
+      .floatLeft {
+      float:left;
+      margin-left:34px
+      }
+
+      .floatBottom {
+      position:fixed;
+      padding-top:535px;
+      }
+
+      .headerimages {
+      padding-top: 34px;
+      }   
+  
+        .br {
+            display: block;
+            margin-bottom: -.5em;
+        }
+
+      @font-face {
+        font-family: jcfontreg;
+        src: url(assets/fonts/JunicodeCondensed-Regular.otf);
+    }
+
+      .mypara {
+      font-size: 82px;
+      }
+
+body{
+    min-height: 0vh;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    margin: auto 0;
+}

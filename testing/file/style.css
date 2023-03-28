@@ -17,11 +17,6 @@ opacity:0;
       margin-left:34px
       }
 
-      .floatBottom {
-      position:fixed;
-      bottom: 0;
-      }
-
       .headerimages {
       padding-top: 34px;
       }   
@@ -34,10 +29,10 @@ opacity:0;
       @font-face {
         font-family: jcfontreg;
         src: url(assets/fonts/JunicodeCondensed-Regular.otf);
+        font-weight: normal;
     }
-
       .mypara {
-      font-size: 82px;
+      font-size: 75px;
       }
 
 body{
@@ -48,3 +43,13 @@ body{
 article {
     margin: 0;
 }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: none;
+        text-align: left;
+        margin-bottom: 0px;
+    }
